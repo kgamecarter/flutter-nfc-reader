@@ -97,13 +97,13 @@ class _MyAppState extends State<MyApp> {
                     'NFC Data: $_nfcData\n',
                     textAlign: TextAlign.center,
                   ),
-                  new RaisedButton(
+                  new ElevatedButton(
                     child: Text('Start NFC'),
                     onPressed: () {
                       startNFC();
                     },
                   ),
-                  new RaisedButton(
+                  new ElevatedButton(
                     child: Text('Stop NFC'),
                     onPressed: () {
                       stopNFC();
